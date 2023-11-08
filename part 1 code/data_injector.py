@@ -10,4 +10,4 @@ for i in range(300):
         }
     df = df.append(new_data, ignore_index=True)
 # Step 3: Save the DataFrame to a new CSV file
-df.to_csv("data_the_sequel.csv", index=False)
+df.to_csv("modified_data.csv", index=False)

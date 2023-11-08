@@ -44,4 +44,4 @@ while i>=0:
 # Close the connection with the client
 c.close()
 #Export data to CSV
-df.to_csv('cool_af_data.csv', index=False)
+df.to_csv('raw_data.csv', index=False)
